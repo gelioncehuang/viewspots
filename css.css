@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*css reset↑*/
+
+
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+    font-family: '微軟正黑體';
+    
+}
+
+.header{
+    background-image: url(https://upload.cc/i1/2020/09/15/EOoaSd.png);
+    width: 1024px;
+    height: 380px;
+    
+    
+}
+.header h1{
+    margin-left: 380.5px;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 89px;
+    
+}
+.header select{
+    width: 452px;
+    height: 48px;
+    background: rgba(255,255,255,0.7);
+    border: 3px solid #ffffff;
+    margin-left: 320px;
+    margin-top: 85px;
+    font-weight: bold;
+    font: 25px;
+}
+.hotplace{
+    margin-left: 100px;
+    padding: 20px;
+    width: 800px;
+    border: 1px solid #9d9d9d;
+    background-color: #ffffff;
+    border-radius: 2%;
+    position: absolute;
+    top:325px;
+    z-index: 10;
+
+
+}
+.hotplace h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font: 25px;
+}
+
+.selectbar{
+    display:flex ;
+    margin-left: 20px;
+}
+.selectbar li{
+    margin-left: 40px;
+    display: block;
+    padding:10px 30px;
+    
+}
+.selectbar a{
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.selectbar .chose1{
+    background-color: #8A82CC ;
+}
+.selectbar .chose2{
+    background-color: #FFA782 ;
+}
+.selectbar .chose3{
+    background-color:#F5D105 ;
+}
+.selectbar .chose4{
+    background-color: #559AC8 ;
+}
+.selectbar .chose5{
+    background-color: #00BB00 ;
+}
+
+/*content*/
+.content .line{
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 55px;
+    border-top: 3px dashed #559AC8;
+}
+
+.dot{
+    border: 2px solid #559AC8 ;
+    position: absolute;
+    margin-left: 30.5%;
+    top:470px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.content .placetit{
+    font-size: 36px;
+    color:#559AC8;
+    margin-left: 477px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+.viewpoint{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 464px;
+    height: 273px;
+    margin-bottom: 36px;
+    margin-left: 25px;
+    box-shadow:0px 0px 5px 2px #9D9D9D;
+}
+.box ul{
+    padding: 10px;
+}
+.box li{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.box span{
+    margin-left: 187px;
+}
+.box img{
+    margin-right: 5px;
+}
+.pic{
+    background-size:464px 250px;
+    background-position: 464px 210px;
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+.pic h2{
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 117px;
+    margin-left: 10px;
+}
+.pic p{
+    font-size: 19px;
+    color: #ffffff;
+    margin-top: 125px;
+    margin-right: 10px;
+}
+/*pagebox*/
+.pagebox{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 443px;
+}
+.pagebox li{
+    padding: 5px;
+}
+.pagebox a{
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    color:	#000079;
+}
+/*無法連結*/
+
+.disconect a{
+    color:#6C6C6C;
+}
+/*footer*/
+.footer{
+    background-color: #559AC8;
+    padding: 10px 400px;
+}
+.footer p{
+    color: #FFD366;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.footer .tittle{
+    margin-left: 80px;
+    color: #ffffff;
+}
